@@ -1,0 +1,7 @@
+{
+  "packages" : {
+    "dostool" : {
+      "link" : "https://github.com/i4ego/dostool/archive/refs/heads/main.zip"
+    }
+  }
+}
