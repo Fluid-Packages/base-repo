@@ -1,7 +1,9 @@
 {
   "packages" : {
     "dostool" : {
-      "link" : "https://github.com/i4ego/dostool/archive/refs/heads/main.zip"
+      "link" : "https://github.com/i4ego/dostool/archive/refs/heads/main.zip",
+      "build" : "setup.sh",
+      "build-nt" : "setup.cmd"
     }
   }
 }
