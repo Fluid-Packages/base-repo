@@ -5,12 +5,17 @@
       "links" : {
         "nt" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-win32-x64",
         "darwin" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-alpine-x64",
-        "posix" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-darwin-arm64"
+        "posix" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-darwin-arm64",
+        "save-as" : {
+          "nt" : "code.exe",
+          "darwin" : "code",
+          "posix" : "code.tar"
+        }
       },
       "setup" : {
-        "nt" : ["code.exe"],
-        "darwin" : ["./code"],
-        "posix" : ["tar -xf vscode_cli_alpine_x64_cli.tar", "./code"]
+        "nt" : ["vscode.exe"],
+        "darwin" : ["./vscode"],
+        "posix" : ["tar -xf vscode", "./code"]
       },
       "show" : [
         "Successfuly installed dostool!",
@@ -23,11 +28,16 @@
       "links" : {
         "nt" : "https://www.python.org/ftp/python/3.12.2/python-3.12.2.exe",
         "darwin" : "https://www.python.org/ftp/python/3.12.2/python-3.12.2-macos11.pkg",
-        "posix" : null
+        "posix" : null,
+        "save-as" : {
+          "nt" : "python-install.exe",
+          "darwin" : "python-install.pkg",
+          "posix" : null
+        }
       },
       "setup" : {
-        "nt" : ["python-3.12.2.exe"],
-        "darwin" : ["sudo installer -pkg python-3.12.2-macos11.pkg -target /"],
+        "nt" : ["python-install.exe"],
+        "darwin" : ["sudo installer -pkg python-install.pkg -target /"],
         "posix" : []
       },
       "show" : [
