@@ -4,17 +4,17 @@
       "src" : "https://github.com/microsoft/vscode/archive/refs/heads/main.zip",
       "links" : {
         "nt" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-win32-x64",
-        "darwin" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-alpine-x64",
-        "posix" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-darwin-arm64",
+        "darwin" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-darwin-arm64",
+        "posix" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-alpine-x64",
         "save-as" : {
           "nt" : "code.exe",
           "darwin" : "code",
-          "posix" : "code.tar"
+          "posix" : "code.tar.gz"
         }
       },
       "setup" : {
         "nt" : ["code.exe"],
-        "darwin" : ["sudo ./code"],
+        "darwin" : ["./code"],
         "posix" : ["tar -xf vscode", "./code"]
       },
       "show" : [
