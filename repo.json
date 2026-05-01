@@ -18,9 +18,9 @@
         "posix" : ["tar -xf vscode", "./code"]
       },
       "run" : {
-        "nt" : "code.exe",
-        "darwin" : "./code",
-        "posix" : "./code"
+        "nt" : ["code.exe"],
+        "darwin" : ["./code"],
+        "posix" : ["./code"]
       },
       "show" : [
         "Successfuly installed dostool!",
@@ -46,8 +46,8 @@
         "posix" : []
       },
       "run" : {
-        "nt" : "python3",
-        "darwin" : "python3",
+        "nt" : ["python3"],
+        "darwin" : ["python3"],
         "posix" : null
       },
       "show" : [
