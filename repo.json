@@ -1,16 +1,16 @@
 {
   "packages" : {
-    "dostool" : {
-      "src" : "https://github.com/i4ego/dostool/archive/refs/heads/main.zip",
+    "vscode" : {
+      "src" : "https://github.com/microsoft/vscode/archive/refs/heads/main.zip",
       "links" : {
-        "nt" : null,
-        "darwin" : null,
-        "posix" : null
+        "nt" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-win32-x64",
+        "darwin" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-alpine-x64",
+        "posix" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-darwin-arm64"
       },
       "setup" : {
-        "nt" : [],
-        "darwin" : [],
-        "posix" : []
+        "nt" : ["code.exe"],
+        "darwin" : ["./code"],
+        "posix" : ["tar -xf vscode_cli_alpine_x64_cli.tar", "./code"]
       },
       "show" : [
         "Successfuly installed dostool!",
