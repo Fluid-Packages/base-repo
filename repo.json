@@ -12,10 +12,10 @@
         "darwin" : ["bash setup-macos.sh"],
         "posix" : ["bash setup-linux.sh"]
       },
-      "show" : {
+      "show" : [
         "Successfuly installed dostool!",
         "Usage: dostool <args>"
-      }
+      ]
     }
   }
 }
