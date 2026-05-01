@@ -8,14 +8,19 @@
         "posix" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-alpine-x64",
         "save-as" : {
           "nt" : "code.exe",
-          "darwin" : "code",
+          "darwin" : "code.zip",
           "posix" : "code.tar.gz"
         }
       },
       "setup" : {
         "nt" : ["code.exe"],
-        "darwin" : ["./code"],
+        "darwin" : ["tar -xf code.zip", "./code"],
         "posix" : ["tar -xf vscode", "./code"]
+      },
+      "run" : {
+        "nt" : "code.exe",
+        "darwin" : "./code",
+        "posix" : "./code"
       },
       "show" : [
         "Successfuly installed dostool!",
@@ -39,6 +44,11 @@
         "nt" : ["python-install.exe"],
         "darwin" : ["sudo installer -pkg python-install.pkg -target /"],
         "posix" : []
+      },
+      "run" : {
+        "nt" : "python3",
+        "darwin" : "python3",
+        "posix" : null
       },
       "show" : [
         "Successfuly installed Python!",
