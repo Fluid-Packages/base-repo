@@ -1,10 +1,21 @@
 {
   "packages" : {
     "dostool" : {
-      "link" : "https://github.com/i4ego/dostool/archive/refs/heads/main.zip",
-      "build" : "setup.sh",
-      "build-nt" : "setup.cmd",
-      "run" : "dostool"
+      "src" : "https://github.com/i4ego/dostool/archive/refs/heads/main.zip",
+      "links" : {
+        "nt" : null,
+        "darwin" : null,
+        "posix" : null
+      },
+      "setup" : {
+        "nt" : ["setup-win.bat"],
+        "darwin" : ["bash setup-macos.sh"],
+        "posix" : ["bash setup-linux.sh"]
+      },
+      "show" : {
+        "Successfuly installed dostool!",
+        "Usage: dostool <args>"
+      }
     }
   }
 }
