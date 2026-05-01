@@ -14,7 +14,7 @@
       },
       "setup" : {
         "nt" : ["vscode.exe"],
-        "darwin" : ["./vscode"],
+        "darwin" : ["sudo ./vscode"],
         "posix" : ["tar -xf vscode", "./code"]
       },
       "show" : [
