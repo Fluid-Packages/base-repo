@@ -13,8 +13,8 @@
         }
       },
       "setup" : {
-        "nt" : ["vscode.exe"],
-        "darwin" : ["sudo ./vscode"],
+        "nt" : ["code.exe"],
+        "darwin" : ["sudo ./code"],
         "posix" : ["tar -xf vscode", "./code"]
       },
       "show" : [
