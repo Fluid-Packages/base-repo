@@ -14,7 +14,8 @@
       },
       "show" : [
         "Successfuly installed dostool!",
-        "Usage: dostool <args>"
+        "Usage: dostool <args>",
+        "Distributed under GPL 3.0; Author - i4ego"
       ]
     }
   }
