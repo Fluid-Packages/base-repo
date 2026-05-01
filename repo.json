@@ -27,12 +27,12 @@
       },
       "setup" : {
         "nt" : ["python-3.12.2.exe"],
-        "darwin" : ["python-3.12.2-macos11.pkg"],
+        "darwin" : ["sudo installer -pkg python-3.12.2-macos11.pkg -target /"],
         "posix" : []
       },
       "show" : [
         "Successfuly installed Python!",
-        "License - https://github.com/python/cpython/raw/refs/heads/main/LICENSE"
+        "License - https://github.com/python/cpython/raw/refs/heads/3.12/LICENSE"
       ]
     }
   }
