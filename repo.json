@@ -54,6 +54,33 @@
         "Successfuly installed Python!",
         "License - https://github.com/python/cpython/raw/refs/heads/3.12/LICENSE"
       ]
+    },
+    "libresprite" : {
+      "src" : "https://github.com/libresprite/libresprite/archive/refs/heads/stable-1.x.zip",
+      "links" : {
+        "nt" : "https://github.com/LibreSprite/LibreSprite/releases/download/v1.0/LibreSprite-Windows-x86_32.zip",
+        "darwin" : "https://github.com/LibreSprite/LibreSprite/releases/download/v1.0/LibreSprite-macos-x86_64.zip",
+        "posix" : null,
+        "save-as" : {
+          "nt" : "libresprite.zip",
+          "darwin" : "libresprite.zip",
+          "posix" : null
+        }
+      },
+      "setup" : {
+        "nt" : ["tar -xf libresprite.zip", "libresprite.exe"],
+        "darwin" : ["tar -xf libresprite.zip", "cd libresprite.app/Contents/MacOS", "./libresprite"],
+        "posix" : []
+      },
+      "run" : {
+        "nt" : ["libresprite.exe"],
+        "darwin" : ["cd libresprite.app/Contents/MacOS", "./libresprite"],
+        "posix" : null
+      },
+      "show" : [
+        "Successfuly installed Libresprite!",
+        "License - https://github.com/LibreSprite/LibreSprite/raw/refs/heads/stable-1.x/LICENSE.txt"
+      ]
     }
   }
 }
