@@ -69,12 +69,12 @@
       },
       "setup" : {
         "nt" : ["tar -xf libresprite.zip", "libresprite.exe"],
-        "darwin" : ["tar -xf libresprite.zip", "cd libresprite.app/Contents/MacOS", "./libresprite"],
+        "darwin" : ["tar -xf libresprite.zip", "cd libresprite.app/Contents/MacOS && ./libresprite"],
         "posix" : []
       },
       "run" : {
         "nt" : ["libresprite.exe"],
-        "darwin" : ["cd libresprite.app/Contents/MacOS", "./libresprite"],
+        "darwin" : ["cd libresprite.app/Contents/MacOS && ./libresprite"],
         "posix" : null
       },
       "show" : [
