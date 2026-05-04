@@ -23,9 +23,8 @@
         "posix" : ["./code"]
       },
       "show" : [
-        "Successfuly installed dostool!",
-        "Usage: dostool <args>",
-        "Distributed under GPL 3.0; Author - i4ego"
+        "Successfuly installed vscode!",
+        "Usage: fluid run vscode"
       ]
     },
     "python" : {
@@ -60,22 +59,22 @@
       "links" : {
         "nt" : "https://github.com/LibreSprite/LibreSprite/releases/download/v1.0/LibreSprite-Windows-x86_32.zip",
         "darwin" : "https://github.com/LibreSprite/LibreSprite/releases/download/v1.0/LibreSprite-macos-x86_64.zip",
-        "posix" : null,
+        "posix" : "https://github.com/LibreSprite/LibreSprite/releases/download/v1.0/libresprite-Linux--x86_64.AppImage",
         "save-as" : {
           "nt" : "libresprite.zip",
           "darwin" : "libresprite.zip",
-          "posix" : null
+          "posix" : "libre.AppImage"
         }
       },
       "setup" : {
         "nt" : ["tar -xf libresprite.zip", "libresprite.exe"],
         "darwin" : ["tar -xf libresprite.zip", "cd libresprite.app/Contents/MacOS && ./libresprite"],
-        "posix" : []
+        "posix" : ["chmod +x libre.AppImage", "./libre.AppImage"]
       },
       "run" : {
         "nt" : ["libresprite.exe"],
         "darwin" : ["cd libresprite.app/Contents/MacOS && ./libresprite"],
-        "posix" : null
+        "posix" : ["./libre.AppImage"]
       },
       "show" : [
         "Successfuly installed Libresprite!",
