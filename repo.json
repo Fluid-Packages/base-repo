@@ -3,7 +3,7 @@
     "vscode" : {
       "src" : "https://github.com/microsoft/vscode/archive/refs/heads/main.zip",
       "links" : {
-        "nt" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-win32-x64",
+        "nt" : "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
         "darwin" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-darwin-arm64",
         "posix" : "https://code.visualstudio.com/sha/download?build=stable&os=cli-alpine-x64",
         "save-as" : {
