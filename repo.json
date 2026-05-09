@@ -30,8 +30,8 @@
     "python" : {
       "src" : "https://github.com/python/cpython/archive/refs/heads/3.12.zip",
       "links" : {
-        "nt" : "https://www.python.org/ftp/python/3.12.2/python-3.12.2.exe",
-        "darwin" : "https://www.python.org/ftp/python/3.12.2/python-3.12.2-macos11.pkg",
+        "nt" : "https://www.python.org/ftp/python/3.12.8/python-3.12.8.exe",
+        "darwin" : "https://www.python.org/ftp/python/3.12.8/python-3.12.8-macos11.pkg",
         "posix" : null,
         "save-as" : {
           "nt" : "python-install.exe",
